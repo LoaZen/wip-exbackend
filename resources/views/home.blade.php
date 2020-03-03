@@ -3,7 +3,7 @@
 
 @section('content')
 <div class="container">
-    <h1>INDEX BLOG</h1>
+    <h1>POSTS INDEX</h1>
 
     @if (Session::has('status'))
         <h4 style="color:red;">{{ Session::get('status') }}</h4>
